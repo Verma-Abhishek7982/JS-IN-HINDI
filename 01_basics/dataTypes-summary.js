@@ -31,7 +31,31 @@ let myObj = {
 const myFunction = function(){
     console.log("Hello world");
 }
-// funtions
+// funtions 
 console.log(typeof anotherId);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+// stack (primitive) heap (Non premitive)
+let myAccountId = "Abhishek@googledotcom"
+let anotherAccount = myAccountId
+anotherAccount = "hello world" // using stack memory
+
+console.log(myAccountId)
+console.log(anotherAccount)
+
+//heap memory
+//as objects using heap memory so call by reference
+let userOne = {
+    emailId: "abhishek@2003.com", //object is storing data in key value pair
+    upiId: "abhishek@ybl" // next line is proceed after using comma
+}
+let userTwo = userOne
+
+//let change in userTwo
+userTwo.emailId = "abhi262003@google.com" //objects keys is accessed by using (.) dot
+
+console.log(userOne.emailId)
+console.log(userTwo.emailId) //as changing any one is change the real one as we provide userTwo to the
+//referece of the userOne 
+
