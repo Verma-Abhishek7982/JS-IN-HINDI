@@ -1,6 +1,6 @@
 // Dates
 
-let myDate = new Date()
+let myDate = new Date() // new date() function used to give the date with time
 console.log(myDate)
 console.log(myDate.toString());
 console.log(myDate.toDateString());
@@ -17,7 +17,7 @@ let myCreatedDate = new Date("01-14-2023")
 
 let myTimeStamp = Date.now()
 
-// console.log(myTimeStamp);
+console.log(myTimeStamp);
 // console.log(myCreatedDate.getTime());
 // console.log(Math.floor(Date.now()/1000));
 
