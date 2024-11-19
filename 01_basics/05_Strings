@@ -1,0 +1,37 @@
+const name = "Abhishek"
+const repoCount = 50 // by default java Script taki it as number
+
+// console.log(name + repoCount + " Value"); // not a good way of writing
+
+console.log(`Hello my name is ${name} and my repo count is ${repoCount}`); //using backticks is a goodway
+
+const gameName = new String('Abhishek-hc-com') //using new sign we can explicitly mention the type of data
+// such as new Number, new String
+
+// console.log(gameName[0]);
+// console.log(gameName.__proto__); // optional
+
+
+// properties of strings
+// console.log(gameName.length);
+// console.log(gameName.toUpperCase());
+console.log(gameName.charAt(2));
+console.log(gameName.indexOf('h'));
+
+const newString = gameName.substring(0, 4) // 4 is not included
+console.log(newString);
+
+const anotherString = gameName.slice(3, 4) // in slice only we using the -ve indexing
+console.log(anotherString);
+
+const newStringOne = "   Abhishek    "
+console.log(newStringOne);
+console.log(newStringOne.trim());
+
+const url = "https://Abhishek.com/hitesh%20choudhary"
+
+console.log(url.replace('%20', '-'))
+
+console.log(url.includes('Abhishek')) // check where url contains or includes this or not
+
+console.log(gameName.split('-')); // split by (-)
