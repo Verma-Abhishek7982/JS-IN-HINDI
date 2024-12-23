@@ -1,10 +1,10 @@
-let score = "hitesh"
+let score = "Abhishek"
 
-//console.log(typeof score);
-//console.log(typeof(score)); =>both method is used to know the type
+// console.log(typeof score);
+// console.log(typeof(score)); //=>both method is used to know the type
 
 let valueInNumber = Number(score) // conversion from string to number by using capital N in Number
-// console.log(typeof valueInNumber);
+//console.log(typeof valueInNumber);
 // console.log(valueInNumber);
 
 
@@ -13,7 +13,7 @@ let valueInNumber = Number(score) // conversion from string to number by using c
 // null gives => 0
 //  true => 1; false => 0
 
-let isLoggedIn = "hitesh"
+let isLoggedIn = "Abhishek"
 
 let booleanIsLoggedIn = Boolean(isLoggedIn)
 //  console.log(booleanIsLoggedIn);
@@ -21,7 +21,7 @@ let booleanIsLoggedIn = Boolean(isLoggedIn)
 // results=>
 // 1 => true; 0 => false
 // "" => false
-// "hitesh" => true
+// "Abhishek" => true
 
 let someNumber = 33
 
@@ -43,17 +43,17 @@ let negValue = -value // new variable negValue stores the negative (-) of the va
 // console.log(2%3);
 
 let str1 = "hello"
-let str2 = " hitesh"
+let str2 = " Abhishek"
 
 let str3 = str1 + str2 // concatenation using (+) symbol
 // console.log(str3);
 
 // console.log("1" + 2);
 // console.log(1 + "2");
-// console.log("1" + 2 + 2); gives => 122 in result
+// console.log("1" + 2 + 2);// gives => 122 in result
 // console.log(1 + 2 + "2"); // not good practice gives=> 32
 
-// console.log( (3 + 4) * 5 % 3); //better way
+// console.log( (3 + 4) * 5/3); //better way
 
 // console.log(+true); // gives => 1 not #true
 // console.log(+""); // gives 0 as we know thats empty string returns 0
