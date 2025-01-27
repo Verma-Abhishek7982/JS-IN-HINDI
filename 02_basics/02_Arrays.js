@@ -6,10 +6,11 @@ const dc_heros = ["superman", "flash", "batman"]
 // console.log(marvel_heros);
 // console.log(marvel_heros[3][1]);
 
-// const allHeros = marvel_heros.concat(dc_heros)
-// console.log(allHeros);
+const allHeros = marvel_heros.concat(dc_heros)
+console.log(allHeros);
 
-const all_new_heros = [...marvel_heros, ...dc_heros] //Spreading in array just as concatenate
+const all_new_heros = [...marvel_heros, ...dc_heros] //Spreading in array just as concatenate 
+// spread mean glass fek dia => (drop drop drop) same by using ...
 
 // console.log(all_new_heros);
 
